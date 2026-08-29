@@ -48,14 +48,14 @@
     window.PROJECTS = [
         {
             slug: 'project-1',
-            title: 'US Electricity Overview, 2001–2023',
+            title: 'Business Insight',
             category: 'Power BI Dashboard',
-            year: '2025',
-            tagline: 'An interactive report tracking two decades of US electricity generation, renewable adoption and CO2 emissions across all 50 states.',
-            summary: 'A multi-page Power BI report turning 20+ years of US energy data into a clear story about generation growth, the renewable mix and emissions by state.',
+            year: '2026',
+            tagline: 'An interactive business analytics dashboard transforming sales data into actionable insights on revenue, product performance, customer behavior, and sales trends to support data-driven decision-making.',
+            summary: 'A multi-page Power BI dashboard transforming raw sales data into actionable insights on revenue performance, product trends, customer behavior, and overall business performance.',
             cover: 'assets/images/US-Elec.png',
             role: 'Data Analyst',
-            timeline: '2025',
+            timeline: '2026',
             tools: 'Power BI, Power Query, DAX',
             images: [
                 {
