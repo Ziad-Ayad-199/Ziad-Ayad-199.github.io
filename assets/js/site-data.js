@@ -49,7 +49,7 @@
         {
             slug: 'project-1',
             title: 'Business Insight',
-            category: 'Power BI Dashboard',
+            category: 'Data Analysis',
             year: '2026',
             tagline: 'An interactive business analytics dashboard transforming sales data into actionable insights on revenue, product performance, customer behavior, and sales trends to support data-driven decision-making.',
             summary: 'A multi-page Power BI dashboard transforming raw sales data into actionable insights on revenue performance, product trends, customer behavior, and overall business performance.',
