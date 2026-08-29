@@ -56,7 +56,7 @@
             cover: 'assets/images/Screenshot 2026-08-29 141608.png',
             role: 'Data Analyst',
             timeline: '2026',
-            tools: 'Power BI, Power Query, DAX',
+            tools: 'Power BI, Power Query, DAX, Excel',
             images: [
                 {
                     src: 'assets/images/Screenshot 2026-08-29 141608.png',
@@ -122,25 +122,25 @@
            for your real work — the pages update automatically. */
         {
             slug: 'project-2',
-            title: 'Project Title Two',
+            title: 'Titanic Analysis',
             category: 'Power BI Dashboard',
-            year: '2025',
+            year: '2024',
             tagline: 'One sentence that explains what this project set out to answer and who it was for.',
             summary: 'A brief, one or two-sentence description of your project, what it does, and the tools you used.',
-            cover: SHOT.overview,
-            role: 'Data Analyst',
-            timeline: '2025',
-            tools: 'Power BI, SQL',
+            cover: 'assets/images/Titanic Cover.jpg',
+            role: 'Power BI Developer',
+            timeline: '2024',
+            tools: 'Power BI',
             images: [
-                { src: SHOT.overview, alt: 'Project two overview screenshot', caption: 'Overview page — swap this for your own screenshot.' },
-                { src: SHOT.detail, alt: 'Project two detail screenshot', caption: 'Detail page — swap this for your own screenshot.' }
+                { src: 'assets/images/Titanic 1.png', alt: 'Project two overview screenshot', caption: 'Overview page — swap this for your own screenshot.' },
+                { src: 'assets/images/Titanic 2.png', alt: 'Project two detail screenshot', caption: 'Detail page — swap this for your own screenshot.' }
             ],
             description: [
                 'Describe the business question behind the project and why it mattered. Two or three sentences is plenty.',
                 'Explain where the data came from, how you cleaned and modelled it, and any interesting decisions you had to make along the way.',
                 'Finish with the outcome: what the dashboard revealed and what someone could do differently because of it.'
             ],
-            technologies: ['Power BI', 'SQL', 'Power Query (M)', 'DAX'],
+            technologies: ['Power BI', 'Power Query (M)', 'DAX'],
             features: [
                 'Describe a key feature of the report here.',
                 'Add another highlight — a calculation, an interaction, a design choice.',
