@@ -114,7 +114,7 @@
                 'A 2001–2023 trend line with data labels highlighting long-term growth.',
                 'Star-schema data model built for fast filtering and reusable DAX measures.'
             ],
-            github: 'https://github.com/Ziad-Ayad-199',
+            github: null,
             demo: null
         },
 
