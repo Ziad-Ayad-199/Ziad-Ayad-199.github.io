@@ -53,32 +53,57 @@
             year: '2026',
             tagline: 'An interactive business analytics dashboard transforming sales data into actionable insights on revenue, product performance, customer behavior, and sales trends to support data-driven decision-making.',
             summary: 'A multi-page Power BI dashboard transforming raw sales data into actionable insights on revenue performance, product trends, customer behavior, and overall business performance.',
-            cover: 'assets/images/US-Elec.png',
+            cover: 'assets/images/Screenshot 2026-08-29 141608.png',
             role: 'Data Analyst',
             timeline: '2026',
             tools: 'Power BI, Power Query, DAX',
             images: [
                 {
-                    src: 'assets/images/US-Elec.png',
-                    alt: 'US Electricity Overview dashboard showing KPIs, top states by generation, energy mix and CO2 emissions by state',
-                    caption: 'Overview page — headline KPIs, top generating states, renewable vs non-renewable mix and a CO2 emissions map.'
+                    src: 'assets/images/Screenshot 2026-08-29 141608.png',
+                    alt: 'Power BI executive dashboard showing overall sales, revenue, customers, products, and business performance.',
+                    caption: 'Executive overview of business performance, highlighting key KPIs, revenue trends, product performance, sales channels, and geographic distribution.'
                 },
                 {
-                    src: SHOT.detail,
-                    alt: 'Placeholder for a state level drill-through page',
-                    caption: 'Replace with your state-level drill-through page.'
+                    src: 'assets/images/Screenshot 2026-08-29 141621.png',
+                    alt: 'Power BI sales analysis dashboard showing revenue trends, orders, sales channels, and daily performance.',
+                    caption: 'Sales performance analysis covering revenue trends, order patterns, average order value, sales channels, and opportunities over time.'
+                },
+               {
+                    src: 'assets/images/Screenshot 2026-08-29 141632.png',
+                    alt: 'Power BI product analysis dashboard comparing revenue, product performance, quantity sold, and product contribution.',
+                    caption: 'Product performance analysis identifying top and bottom products, category contribution, revenue distribution, and average selling prices.'
+                },
+               {
+                    src: 'assets/images/Screenshot 2026-08-29 141644.png',
+                    alt: 'Power BI customer analysis dashboard showing customer revenue, returning customers, locations, and transaction methods.',
+                    caption: 'Customer analysis exploring purchasing behavior, customer revenue, returning customers, geographic distribution, and payment methods.'
+                },
+               {
+                    src: 'assets/images/Screenshot 2026-08-29 141659.png',
+                    alt: 'Power BI employee performance dashboard showing payroll, salaries, job roles, experience, and employee demographics.',
+                    caption: 'Employee performance overview analyzing payroll, salary distribution, job roles, experience levels, seniority, and workforce demographics.'
+                },
+               {
+                    src: 'assets/images/Screenshot 2026-08-29 141713.png',
+                    alt: 'Power BI geographic analysis dashboard showing revenue, customers, and orders across five countries.',
+                    caption: 'Geographic analysis comparing revenue, customers, orders, and average order value across Egypt, Saudi Arabia, Iraq, Syria, and the United Arab Emirates.'
+                },
+               {
+                    src: 'assets/images/Screenshot 2026-08-29 141727.png',
+                    alt: 'Power BI detailed report showing transaction-level sales data with interactive filters and key performance indicators.',
+                    caption: 'Detailed transaction-level view with interactive filters for date, country, category, product, payment method, and sales channel.'
                 },
                 {
-                    src: SHOT.model,
-                    alt: 'Placeholder for the star schema data model view',
-                    caption: 'Replace with the model view showing your star schema.'
+                    src: 'assets/images/Screenshot 2026-08-29 141754.png',
+                    alt: 'Power BI data model showing relationships between orders, customers, products, employees, countries, dates, and departments.',
+                    caption: 'Structured Power BI data model connecting sales transactions with customer, product, employee, geographic, date, and department dimensions.'
                 }
             ],
             description: [
-                'This report explores how electricity generation in the United States changed between 2001 and 2023 — how much power was produced, how much of it came from renewable sources, and what that meant for CO2 emissions at the state level.',
-                'The raw data was cleaned and reshaped in Power Query: inconsistent state names were standardised, energy-source categories were grouped into renewable and non-renewable buckets, and yearly fact tables were unpivoted into a tidy structure. A star schema with dedicated date, state and energy-source dimensions keeps the model fast and the DAX simple.',
-                'Measures written in DAX calculate total generation, renewable share, year-over-year growth and emissions intensity. Slicers for year, state and energy source let a reader move from the national picture down to a single state without leaving the page.',
-                'The headline finding: total generation grew from roughly 8.8M to 12.3M GWh over the period, while the renewable share climbed to about 16% — with Washington, California and Texas contributing the largest renewable volumes.'
+                'This report provides a comprehensive view of business performance, analyzing sales, products, customers, employees, and geographic performance across five countries. It explores how revenue is distributed across products and categories, which sales channels and countries perform best, how customers behave, and how employee performance and payroll contribute to the overall business.',
+                'The raw data was cleaned, transformed, and prepared for analysis before being modeled in Power BI. A star schema connects the Orders fact table with dedicated dimensions for date, country, product, customers, employees, departments, and money transfer types, creating a structured model for efficient reporting and analysis.',
+                'Measures written in DAX calculate key business metrics including total revenue, total orders, average order value, customer revenue, product contribution, revenue percentage, employee payroll, and geographic performance. Interactive filters and navigation allow users to move from the executive overview into detailed sales, product, customer, employee, geographic, and transaction-level analysis.',
+                'The headline findings: the business generated approximately $374K in revenue from 3,472 orders, with electronics contributing 50.4% of total revenue. Egypt generated the highest revenue at approximately $123.5K, while the Dealer channel recorded the highest number of opportunities. At the product level, HDD and mobile were the top revenue-generating products, contributing approximately $27K and $25K, respectively.'
             ],
             technologies: ['Power BI', 'Power Query (M)', 'DAX', 'Star Schema', 'Excel', 'Data Cleaning'],
             features: [
