@@ -127,8 +127,8 @@
             title: 'Titanic Analysis',
             category: 'Power BI Dashboard',
             year: '2024',
-            tagline: 'One sentence that explains what this project set out to answer and who it was for.',
-            summary: 'A brief, one or two-sentence description of your project, what it does, and the tools you used.',
+            tagline: 'An interactive Power BI dashboard analyzing passenger demographics, survival patterns, fares, and embarkation details from the Titanic dataset.',
+            summary: 'A two-page Power BI report transforming Titanic passenger data into a clear story about survival rates, demographics, passenger classes, fares, family groups, and embarkation patterns.',
             cover: 'assets/images/Titanic Cover.jpg',
             role: 'Power BI Developer',
             timeline: '2024',
@@ -138,17 +138,23 @@
                 { src: 'assets/images/Titanic 2.png', alt: 'Project two detail screenshot', caption: 'Detail page — swap this for your own screenshot.' }
             ],
             description: [
-                'Describe the business question behind the project and why it mattered. Two or three sentences is plenty.',
-                'Explain where the data came from, how you cleaned and modelled it, and any interesting decisions you had to make along the way.',
-                'Finish with the outcome: what the dashboard revealed and what someone could do differently because of it.'
+                'This report analyzes passenger data from the Titanic to explore survival patterns and the factors associated with passenger outcomes. It examines survival rates across gender, passenger class, age groups, embarkation points, and family characteristics, while also providing an overview of passenger fares and demographics.',
+                'The dataset was cleaned and prepared for analysis in Power BI, with calculated measures used to evaluate passenger counts, survival rates, average age, average fares, and survival patterns across different passenger groups. Interactive slicers for embarkation point, gender, and passenger class allow users to explore the data from different perspectives.',
+                'The report is organized into two interactive pages: an executive overview of the Titanic passengers and a deeper analysis of survival patterns by gender, age, class, and embarkation point. Visuals and KPI cards make it easy to compare groups and identify differences in survival outcomes.',
+                'The headline finding: 342 of 891 passengers survived, resulting in an overall survival rate of 38.4%. Female passengers had a substantially higher survival rate than male passengers, while first-class passengers showed higher survival outcomes compared with second- and third-class passengers. Southampton was also the embarkation point with the largest number of passengers.'
             ],
-            technologies: ['Power BI', 'Power Query (M)', 'DAX', 'Excel'],
+            technologies: ['Power BI', 'Power Query (M)', 'DAX', 'Excel', 'Data Cleaning'],
             features: [
-                'Describe a key feature of the report here.',
-                'Add another highlight — a calculation, an interaction, a design choice.',
-                'Keep each one short and concrete.'
+                'KPI cards highlighting passengers, survivors, survival rate, average age and total fares.',
+                'Interactive filters for embarkation point, gender and passenger class.',
+                'Survival analysis across gender, age groups and passenger classes.',
+                'Passenger and survival breakdowns by embarkation point.',
+                'Family analysis identifying passengers with family members and the largest surviving family groups.',
+                'Fare analysis comparing average fares across passenger classes and gender.',
+                'Two-page interactive report combining an executive overview with deeper survival analysis.',
+                'DAX measures supporting reusable survival, demographic and fare calculations.'
             ],
-            github: 'https://github.com/Ziad-Ayad-199',
+            github: null,
             demo: null
         },
         {
