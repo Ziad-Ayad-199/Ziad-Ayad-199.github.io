@@ -130,7 +130,7 @@
             cover: 'assets/images/Titanic Cover.jpg',
             role: 'Power BI Developer',
             timeline: '2024',
-            tools: 'Power BI',
+            tools: 'Power BI, Power Query, Dax, Excel',
             images: [
                 { src: 'assets/images/Titanic 1.png', alt: 'Project two overview screenshot', caption: 'Overview page — swap this for your own screenshot.' },
                 { src: 'assets/images/Titanic 2.png', alt: 'Project two detail screenshot', caption: 'Detail page — swap this for your own screenshot.' }
