@@ -140,7 +140,7 @@
                 'Explain where the data came from, how you cleaned and modelled it, and any interesting decisions you had to make along the way.',
                 'Finish with the outcome: what the dashboard revealed and what someone could do differently because of it.'
             ],
-            technologies: ['Power BI', 'Power Query (M)', 'DAX'],
+            technologies: ['Power BI', 'Power Query (M)', 'DAX', 'Excel'],
             features: [
                 'Describe a key feature of the report here.',
                 'Add another highlight — a calculation, an interaction, a design choice.',
