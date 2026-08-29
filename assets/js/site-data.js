@@ -107,12 +107,14 @@
             ],
             technologies: ['Power BI', 'Power Query (M)', 'DAX', 'Star Schema', 'Excel', 'Data Cleaning'],
             features: [
-                'Headline KPI cards for total generation, renewable energy, renewable share and CO2 emissions.',
-                'Cross-filtering slicers for year, state and energy source across every visual.',
-                'Top-10 states ranking and a renewable vs non-renewable mix breakdown.',
-                'Choropleth map of CO2 emissions by state for instant geographic comparison.',
-                'A 2001–2023 trend line with data labels highlighting long-term growth.',
-                'Star-schema data model built for fast filtering and reusable DAX measures.'
+             'Executive KPI cards highlighting revenue, orders, customers, employees and quantity sold.',
+             'Interactive date, country, category, product, payment method and channel filters.',
+             'Sales performance analysis with revenue trends, orders by day, AOV and channel performance.',
+             'Product analysis featuring top and bottom products, category revenue and product contribution.',
+             'Customer analysis covering top customers, returning customers, geographic distribution and payment methods.',
+             'Employee performance analysis covering payroll, salary distribution, job roles, experience and seniority.',
+             'Geographic analysis comparing revenue, customers, orders and average order value across five countries.',
+             'Detailed transaction-level report with interactive filters and a structured star-schema data model.'
             ],
             github: null,
             demo: null
