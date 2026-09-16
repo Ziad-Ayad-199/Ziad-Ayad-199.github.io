@@ -193,7 +193,7 @@
                 'Data came from a raw HR export with inconsistent ID mappings between departments, positions, and performance scores — rather than patching individual bad rows, I rebuilt the dimension tables with fresh surrogate keys derived from the text labels, then modeled a proper star schema in SQL Server with enforced foreign keys.',
                 'The result is a 5-page interactive Power BI dashboard that surfaced a 2-3x attrition gap between job-board and referral hires, and showed that most of the company-wide gender pay gap disappears once role is held constant — findings HR could act on directly.'
             ],
-            technologies: ['SQL (T-SQL), Power BI Desktop, DAX, Power Query, Data Modeling (Star Schema), Data Cleaning, Data Visualization'],
+            technologies: ['SQL (T-SQL)', 'Power BI Desktop', 'DAX, Power Query', 'Data Modeling (Star Schema)', 'Data Cleaning', 'Data Visualization'],
             features: [
                 'Diagnosed and fixed inconsistent source-system ID mappings using SQL diagnostics before they could corrupt the data model',
                 'Built a star schema (1 fact table, 7 dimension tables) with enforced primary/foreign key constraints',
