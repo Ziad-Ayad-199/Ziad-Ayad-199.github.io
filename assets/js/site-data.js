@@ -159,29 +159,31 @@
         },
         {
             slug: 'project-3',
-            title: 'Project Title Three',
-            category: 'Data Analysis',
-            year: '2025',
-            tagline: 'One sentence that explains what this project set out to answer and who it was for.',
-            summary: 'A brief, one or two-sentence description of your project, what it does, and the tools you used.',
+            title: 'HR Analysis',
+            category: 'Data Analytics / Business Intelligence',
+            year: '2026',
+            tagline: 'SQL-to-Power BI HR analytics: from messy IDs to a 5-page interactive dashboard',
+            summary: 'End-to-end HR analytics: SQL Server data modeling + Power BI dashboard uncovering attrition drivers and pay-equity gaps across 311 employees.',
             cover: SHOT.detail,
-            role: 'Data Analyst',
-            timeline: '2025',
-            tools: 'Excel, SQL',
+            role: 'Data Analyst (solo project)',
+            timeline: 'Sep 2026',
+            tools: 'SQL Server, Power BI, DAX, SSMS, Excel',
             images: [
                 { src: SHOT.detail, alt: 'Project three overview screenshot', caption: 'Overview page — swap this for your own screenshot.' },
                 { src: SHOT.model, alt: 'Project three data model screenshot', caption: 'Data model — swap this for your own screenshot.' }
             ],
             description: [
-                'Describe the business question behind the project and why it mattered.',
-                'Explain where the data came from, how you cleaned and modelled it, and any interesting decisions you had to make.',
-                'Finish with the outcome and what it enabled.'
+                'HR wanted to know why employees were leaving and whether pay was distributed fairly — this project analyzed 311 employee records to find concrete, actionable drivers of attrition and pay equity instead of relying on anecdote.',
+                'Data came from a raw HR export with inconsistent ID mappings between departments, positions, and performance scores — rather than patching individual bad rows, I rebuilt the dimension tables with fresh surrogate keys derived from the text labels, then modeled a proper star schema in SQL Server with enforced foreign keys.',
+                'The result is a 5-page interactive Power BI dashboard that surfaced a 2-3x attrition gap between job-board and referral hires, and showed that most of the company-wide gender pay gap disappears once role is held constant — findings HR could act on directly.'
             ],
-            technologies: ['Advanced Excel', 'SQL', 'Google Sheets'],
+            technologies: ['SQL (T-SQL), Power BI Desktop, DAX, Power Query, Data Modeling (Star Schema), Data Cleaning, Data Visualization'],
             features: [
-                'Describe a key feature of the analysis here.',
-                'Add another highlight.',
-                'Keep each one short and concrete.'
+                'Diagnosed and fixed inconsistent source-system ID mappings using SQL diagnostics before they could corrupt the data model',
+                'Built a star schema (1 fact table, 7 dimension tables) with enforced primary/foreign key constraints',
+                '20+ DAX measures, including a custom cumulative-hires running total and a purpose-built date table',
+               'Role-level pay-equity analysis that distinguishes real disparities from small-sample noise',
+               'Reported flat/null results (e.g. tenure vs. salary) honestly instead of overstating weak patterns'
             ],
             github: 'https://github.com/Ziad-Ayad-199',
             demo: null
