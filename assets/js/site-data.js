@@ -201,7 +201,7 @@
                'Role-level pay-equity analysis that distinguishes real disparities from small-sample noise',
                'Reported flat/null results (e.g. tenure vs. salary) honestly instead of overstating weak patterns'
             ],
-            github: null,
+            github: 'https://github.com/Ziad-Ayad-199',
             demo: null
         },
         {
